@@ -1,14 +1,24 @@
-# API MVP MODELO HEART DISEASE
+# API MVP Modelo Heart Disease
 
-Essa é a API do modelo de machine learning que auxilia no diagnóstico de doenças cardíacas.
+Esta é a API do modelo de machine learning que auxilia no diagnóstico de doenças cardíacas.
 
-Para utilizar:
+## Como utilizar:
 
-- git clone neste respositório
-- entre no diretório api-mvp-heart-disease/
-- execute: docker build -t <nome_imagem> .
-- execute: docker run -d -p <porta>:3002 <nome_imagem>:latest
+1. Clone este repositório:
+git clone https://github.com/MatheusVinicius77/api-mvp-heart-disease/tree/master
+
+2. Navegue até o diretório `api-mvp-heart-disease/`:
+cd api-mvp-heart-disease/
+
+3. Construa a imagem Docker:
+docker build -t <nome_imagem> .
+
+4. Execute o contêiner Docker:
+docker run -d -p <porta>:3002 <nome_imagem>:latest
 
 
-- <nome_imagem> sendo o nome que queira dar a imagem. Sugestão: mvp_api
-- <porta> porta que queira ser equivalente a porta da api (3002). Sugestão: 3002
+Substitua `<nome_imagem>` pelo nome desejado para a imagem. Sugestão: `mvp_api`.
+
+Substitua `<porta>` pela porta desejada que será equivalente à porta da API (3002). Sugestão: `3002`.
+
+
