@@ -1,7 +1,6 @@
 import pickle 
 import re
 from pathlib import Path
-from sklearn.preprocessing import LabelEncoder
 
 __version__ = "0.1.0"
 
